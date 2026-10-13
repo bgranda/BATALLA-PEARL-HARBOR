@@ -1,3 +1,4 @@
+%pip install playsound=1.2.2
 import numpy as np
 import random
 from playsound import playsound
