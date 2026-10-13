@@ -50,6 +50,7 @@ def crea_barco(tablero, fila_ini, columna_ini, eslora, orientacion):
 
 print("Jugador, representas a US, es hora de que crees y coloques tus acorazados. \nEl Utah, con una eslora 2, entra la fila de inicio (0,9), la columna de inicio (0,9), 2 (eslora) y la orientación (N, S, E, O),\nel Nevada y el Missouri con una eslora de 3, el Oklahoma con una eslora de 4 y el Arizona con una eslora de 5" )
 
+print("Creemos el USS Utah, con una eslora = 2")
 fila_ini = input("Entra la fila inicial: ")
 columna_ini = input("Entra la columna inicial: ")
 eslora = 2
@@ -57,6 +58,7 @@ orientacion = str(input("Entra la orientación del barco: "))
 
 USS_Utah = crea_barco(tablero1_US, fila_ini, columna_ini, eslora, orientacion)
 
+print("Creemos el USS Nevada, con una eslora = 3")
 fila_ini = input("Entra la fila inicial: ")
 columna_ini = input("Entra la columna inicial: ")
 eslora = 3
@@ -64,6 +66,7 @@ orientacion = str(input("Entra la orientación del barco: "))
 
 USS_Nevada = crea_barco(tablero1_US, fila_ini, columna_ini, eslora, orientacion)
 
+print("Creemos el USS Missouri, con una eslora = 3")
 fila_ini = input("Entra la fila inicial: ")
 columna_ini = input("Entra la columna inicial: ")
 eslora = 3
@@ -71,6 +74,7 @@ orientacion = str(input("Entra la orientación del barco: "))
 
 USS_Missouri = crea_barco(tablero1_US, fila_ini, columna_ini, eslora, orientacion)
 
+print("Creemos el USS Oklahoma, con una eslora = 4")
 fila_ini = input("Entra la fila inicial: ")
 columna_ini = input("Entra la columna inicial: ")
 eslora = 4
@@ -78,6 +82,7 @@ orientacion = str(input("Entra la orientación del barco: "))
 
 USS_Oklahoma = crea_barco(tablero1_US, fila_ini, columna_ini, eslora, orientacion)
 
+print("Y finalmente, creemos el USS Arizona, con una eslora = 5")
 fila_ini = input("Entra la fila inicial: ")
 columna_ini = input("Entra la columna inicial: ")
 eslora = 5
@@ -168,14 +173,19 @@ def crea_barco_aleatorio(tablero1_Japon, eslora, num_intentos = 10):
             return tablero_temp
         print("Tengo que intentar colocar otro barco")
 
+print("Ahora, Japón empezará a crear y colocar sus portaaviones. Empecemos con el Soryu, con una eslora = 2")
 tablero1_Japon = crea_barco_aleatorio(tablero1_Japon, eslora = 2, num_intentos = 10)
 
+print("Ahora, hará creará y colocará el Hiryu, con una eslora = 3")
 tablero1_Japon = crea_barco_aleatorio(tablero1_Japon, eslora = 3, num_intentos = 10)
 
+print("Ahora, hará creará y colocará el Kaga, con una eslora = 3")
 tablero1_Japon = crea_barco_aleatorio(tablero1_Japon, eslora = 3, num_intentos = 10)
 
+print("Ahora, hará creará y colocará el Shokaku, con una eslora = 4")
 tablero1_Japon = crea_barco_aleatorio(tablero1_Japon, eslora = 4, num_intentos = 10)
 
+print("Y finalmente, creará y colocará el Akagi, con una eslora = 5")
 tablero1_Japon = crea_barco_aleatorio(tablero1_Japon, eslora = 5, num_intentos = 10)
 
 print(tablero1_Japon)
