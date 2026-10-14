@@ -1,6 +1,6 @@
 ![Batalla de Pearl Harbor](./img/Pearl_Harbor.jpeg)
 
-# BATALLA-PEARL-HARBOR
+# BATALLA PEARL HARBOR
 Proyecto de versión Juego Hundir La Flota en Numpy
 
 ## <u> Sobre este proyecto </u>
